@@ -1,4 +1,5 @@
  # Categorized Comprehensive LeetCode Problem Set
+
 ## Array and Strings
 1. Longest Substring Without Repeating Characters - LeetCode #3 (Sliding Window)
 2. 3Sum - LeetCode #15 (Two Pointers)
@@ -16,6 +17,7 @@
 14. 3Sum Closest - LeetCode #16 (Two Pointers)
 15. Rotate String - LeetCode #796 (String)
 16. Smallest Subsequence of Distinct Characters - LeetCode #1081 (Stack, Greedy)
+
 ## Linked Lists
 1. Reverse Linked List - LeetCode #206 (Linked List)
 2. Merge Two Sorted Lists - LeetCode #21 (Linked List)
@@ -28,6 +30,7 @@
 9. Convert Sorted Array to Binary Search Tree - LeetCode #108 (Linked List)
 10. Swap Nodes in Pairs - LeetCode #24 (Linked List)
 11. Flatten a Multilevel Doubly Linked List - LeetCode #430 (Linked List)
+
 ## Trees
 1. Lowest Common Ancestor of a Binary Search Tree - LeetCode #235 (Tree)
 2. Lowest Common Ancestor of a Binary Tree - LeetCode #236 (Tree)
@@ -44,6 +47,7 @@
 13. Kth Smallest Element in a BST - LeetCode #230 (BST, Inorder Traversal)
 14. Flatten Binary Tree to Linked List - LeetCode #114 (Tree)
 15. Recover Binary Search Tree - LeetCode #99 (Tree)
+
 ## Graphs
 1. Course Schedule - LeetCode #207 (Graph, Topological Sort)
 2. Course Schedule II - LeetCode #210 (Graph, Topological Sort)
@@ -65,30 +69,11 @@
 18. Articulation Points (or Cut Vertices) - (Graph, DFS)
 19. Eulerian Path/Circuit - (Graph, Eulerian Path/Circuit)
 20. Minimum Spanning Tree (MST) - (Graph, Kruskal's/Prim's Algorithm)
-## Dynamic Programming
-1. Longest Increasing Subsequence - LeetCode #300 (Dynamic Programming)
-2. Coin Change - LeetCode #322 (Dynamic Programming)
-3. Word Break - LeetCode #139 (Dynamic Programming)
-4. Edit Distance - LeetCode #72 (Dynamic Programming)
-5. Maximum Subarray - LeetCode #53 (Dynamic Programming)
-6. House Robber - LeetCode #198 (Dynamic Programming)
-7. Longest Palindromic Substring - LeetCode #5 (Dynamic Programming)
-8. Partition Equal Subset Sum - LeetCode #416 (Dynamic Programming)
-9. Unique Paths - LeetCode #62 (Dynamic Programming)
-10. Jump Game - LeetCode #55 (Dynamic Programming)
-11. Longest Repeating Character Replacement - LeetCode #424 (Sliding Window, Dynamic Programming)
-12. Maximum Product Subarray - LeetCode #152 (Dynamic Programming)
-13. Maximal Square - LeetCode #221 (Dynamic Programming)
-14. Decode Ways - LeetCode #91 (Dynamic Programming)
-15. Combination Sum IV - LeetCode #377 (Dynamic Programming)
-16. Trapping Rain Water - LeetCode #42 (Two Pointers, Dynamic Programming)
-17. Maximum Profit in Job Scheduling - LeetCode #1235 (Dynamic Programming)
-18. Longest Increasing Path in a Matrix - LeetCode #329 (Dynamic Programming)
-19. Contiguous Array - LeetCode #525 (Dynamic Programming)
-20. Longest Valid Parentheses - LeetCode #32 (Dynamic Programming)
-21. Burst Balloons - LeetCode #312 (Dynamic Programming)
-22. Wildcard Matching - LeetCode #44 (Dynamic Programming)
-23. Palindrome Partitioning II - LeetCode #132 (Dynamic Programming)
+21. Rotting Oranges - LeetCode #994 (Graph, BFS)
+22. Pacific Atlantic Water Flow - LeetCode #417 (Graph, DFS)
+23. Shortest Path to Get Food - LeetCode #1730 (Graph, BFS)
+24. Bus Routes - LeetCode #815 (Graph, BFS)
+
 ## Sorting and Searching
 1. Search in Rotated Sorted Array - LeetCode #33 (Binary Search)
 2. Find Minimum in Rotated Sorted Array - LeetCode #153 (Binary Search)
@@ -114,9 +99,58 @@
 22. Reverse Bits - LeetCode #190 (Bit Manipulation)
 23. Count of Smaller Numbers After Self - LeetCode #315 (Divide and Conquer, Binary Indexed Tree)
 24. The Skyline Problem - LeetCode #218 (Heap, Divide and Conquer)
+
+## Greedy Algorithms
+1. Task Scheduler - LeetCode #621 (Greedy)
+2. Gas Station - LeetCode #134 (Greedy)
+3. Meeting Rooms - LeetCode #252 (Greedy)
+4. Meeting Rooms II - LeetCode #253 (Greedy)
+5. Cheapest Flights Within K Stops - LeetCode #787 (Graph, DFS/BFS, Dijkstra)
+6. Non-overlapping Intervals - LeetCode #435 (Greedy)
+7. Maximum Profit in Job Scheduling - LeetCode #1235 (Greedy)
+8. Jump Game II - LeetCode #45 (Greedy)
+
+## Dynamic Programming
+1. Longest Increasing Subsequence - LeetCode #300 (Dynamic Programming)
+2. Coin Change - LeetCode #322 (Dynamic Programming)
+3. Word Break - LeetCode #139 (Dynamic Programming)
+4. Edit Distance - LeetCode #72 (Dynamic Programming)
+5. Maximum Subarray - LeetCode #53 (Dynamic Programming)
+6. House Robber - LeetCode #198 (Dynamic Programming)
+7. Longest Palindromic Substring - LeetCode #5 (Dynamic Programming)
+8. Partition Equal Subset Sum - LeetCode #416 (Dynamic Programming)
+9. Unique Paths - LeetCode #62 (Dynamic Programming)
+10. Jump Game - LeetCode #55 (Dynamic Programming)
+11. Longest Repeating Character Replacement - LeetCode #424 (Sliding Window, Dynamic Programming)
+12. Maximum Product Subarray - LeetCode #152 (Dynamic Programming)
+13. Maximal Square - LeetCode #221 (Dynamic Programming)
+14. Decode Ways - LeetCode #91 (Dynamic Programming)
+15. Combination Sum IV - LeetCode #377 (Dynamic Programming)
+16. Trapping Rain Water - LeetCode #42 (Two Pointers, Dynamic Programming)
+17. Maximum Profit in Job Scheduling - LeetCode #1235 (Dynamic Programming)
+18. Longest Increasing Path in a Matrix - LeetCode #329 (Dynamic Programming)
+19. Contiguous Array - LeetCode #525 (Dynamic Programming)
+20. Longest Valid Parentheses - LeetCode #32 (Dynamic Programming)
+21. Burst Balloons - LeetCode #312 (Dynamic Programming)
+22. Wildcard Matching - LeetCode #44 (Dynamic Programming)
+23. Palindrome Partitioning II - LeetCode #132 (Dynamic Programming)
+
+## Backtracking
+1. Sudoku Solver - LeetCode #37 (Backtracking)
+2. N-Queens - LeetCode #51 (Backtracking)
+3. Word Search - LeetCode #79 (Backtracking)
+4. Word Search II - LeetCode #212 (Backtracking, Trie)
+5. Combination Sum - LeetCode #39 (Backtracking)
+6. Permutations - LeetCode #46 (Backtracking)
+7. Generate Parentheses - LeetCode #22 (Backtracking)
+8. Palindrome Pairs - LeetCode #336 (Trie)
+9. Alien Dictionary - LeetCode #269 (LeetCode Discuss) (Graph, Topological Sort)
+10. Letter Tile Possibilities - LeetCode #1079 (Backtracking)
+11. Brace Expansion - LeetCode #1087 (Backtracking)
+
 ## Design
-1. LRU Cache - LeetCode #146 (Design, Hash Table, Linked List)
-2. Min Stack - LeetCode #155 (Design, Stack)
+1. Min Stack - LeetCode #155 (Design, Stack)
+2. LRU Cache - LeetCode #146 (Design, Hash Table, Linked List)
 3. LFU Cache - LeetCode #460 (Design, Hash Table, Linked List)
 4. Implement Trie (Prefix Tree) - LeetCode #208 (Design, Trie)
 5. Design Add and Search Words Data Structure - LeetCode #211 (Design, Trie)
@@ -132,32 +166,7 @@
 15. First Bad Version - LeetCode #278 (Binary Search)
 16. Design Circular Queue - LeetCode #622 (Design)
 17. Design Phone Directory - LeetCode #379 (Design)
-Greedy Algorithms
-1. Task Scheduler - LeetCode #621 (Greedy)
-2. Gas Station - LeetCode #134 (Greedy)
-3. Meeting Rooms - LeetCode #252 (Greedy)
-4. Meeting Rooms II - LeetCode #253 (Greedy)
-5. Cheapest Flights Within K Stops - LeetCode #787 (Graph, DFS/BFS, Dijkstra)
-6. Non-overlapping Intervals - LeetCode #435 (Greedy)
-7. Maximum Profit in Job Scheduling - LeetCode #1235 (Greedy)
-8. Jump Game II - LeetCode #45 (Greedy)
-## Graph Traversal
-1. Rotting Oranges - LeetCode #994 (Graph, BFS)
-2. Pacific Atlantic Water Flow - LeetCode #417 (Graph, DFS)
-3. Shortest Path to Get Food - LeetCode #1730 (Graph, BFS)
-4. Bus Routes - LeetCode #815 (Graph, BFS)
-## Backtracking
-1. Sudoku Solver - LeetCode #37 (Backtracking)
-2. N-Queens - LeetCode #51 (Backtracking)
-3. Word Search - LeetCode #79 (Backtracking)
-4. Word Search II - LeetCode #212 (Backtracking, Trie)
-5. Combination Sum - LeetCode #39 (Backtracking)
-6. Permutations - LeetCode #46 (Backtracking)
-7. Generate Parentheses - LeetCode #22 (Backtracking)
-8. Palindrome Pairs - LeetCode #336 (Trie)
-9. Alien Dictionary - LeetCode #269 (LeetCode Discuss) (Graph, Topological Sort)
-10. Letter Tile Possibilities - LeetCode #1079 (Backtracking)
-11. Brace Expansion - LeetCode #1087 (Backtracking)
+
 ## Miscellaneous
 1. Sliding Window Maximum - LeetCode #239 (Deque, Sliding Window)
 2. Asteroid Collision - LeetCode #735 (Stack)
