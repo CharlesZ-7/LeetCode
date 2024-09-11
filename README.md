@@ -52,7 +52,6 @@ Graphs
 - [x] Process Restricted Friend Requests - LeetCode #2076 (Graph, Disjoint Set)
 - [x] Find the Shortest Superstring #943 (Graph, Hamiltonian Path)
 - [x] Reconstruct Itinerary - LeetCode #332 (Graph, Hierholzer's algorithm)
-- [x] Critical Connections in a Network - LeetCode #1192 (Graph, Tarjan's Algorithm)
 - [x] Parallel Courses III - LeetCode #2050 (Graph, Kahn’s algorithm)
 - [x] Alien Dictionary - LeetCode #269 (Graph, Kahn’s algorithm)
 - [x] Course Schedule II - LeetCode #210 (Graph, Kahn’s algorithm)
@@ -61,7 +60,8 @@ Graphs
 - [x] Min Cost to Connect All Points -  LeetCode #1584 (Graph, Prim's Algorithm)
 - [x] Find the City With the Smallest Number of Neighbors at a Threshold Distance - LeetCode # 1334 (Graph, Floyd-Warshall Algorithm)
 - [x] Cheapest Flights Within K Stops - LeetCode #787 (Graph, Dijkstra’s Algorithm)
-- [x] Network Delay Time - LeetCode #743 (Graph, Dijkstra’s Algorithim)
+- [x] Network Delay Time - LeetCode #743 (Graph, Dijkstra’s Algorithm)
+- [x] Critical Connections in a Network - LeetCode #1192 (Graph, Tarjan's Algorithm)
 - [x] Maximum Students Taking Exam - LeetCode #1349 (Graph, Ford-Fulkerson Algorithm)
 - [x] Maximum Compatibility Score Sum - LeetCode #1947 (Graph, Hungarian Algorithm)
 
