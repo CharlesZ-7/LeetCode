@@ -1,11 +1,11 @@
 class Solution:
-    def StrongConnectedComponents(self, vertex: int, prev_vertex: int, graph: List[List[int]]):
+    def StronglyConnectedComponents(self, vertex: int, prev_vertex: int, graph: List[List[int]]):
         self.visited_time[vertex] = self.low_link[vertex] = self.time
         self.time += 1
 
         for next_vertex in graph[vertex]:
             if self.visited_time[next_vertex] == -1:
-                self.StrongConnectedComponents(next_vertex, vertex, graph)
+                self.StronglyConnectedComponents(next_vertex, vertex, graph)
                 self.low_link[vertex] = min(self.low_link[vertex], self.low_link[next_vertex])
                 if self.low_link[next_vertex] > self.visited_time[vertex]:
                     self.critical_edges.append([vertex, next_vertex])
@@ -25,6 +25,6 @@ class Solution:
 
         for vertex in range(n):
             if self.visited_time[vertex] == -1:
-                self.StrongConnectedComponents(vertex, -1, graph)
+                self.StronglyConnectedComponents(vertex, -1, graph)
 
         return self.critical_edges
