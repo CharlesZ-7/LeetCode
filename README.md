@@ -63,7 +63,7 @@ Graphs
 - [x] Network Delay Time - LeetCode #743 (Graph, Dijkstra’s Algorithm)
 - [x] Critical Connections in a Network - LeetCode #1192 (Graph, Tarjan's Algorithm)
 - [x] Maximum Students Taking Exam - LeetCode #1349 (Graph, Ford-Fulkerson Algorithm)
-- [x] Maximum Compatibility Score Sum - LeetCode #1947 (Graph, Hungarian Algorithm)
+- [x] Maximum Compatibility Score Sum - LeetCode #1947 (Graph, Kuhn-Munkres Algorithm)
 
 Sorting and Searching
 - [x] Top K Frequent Words - LeetCode #692 (Sorting)
